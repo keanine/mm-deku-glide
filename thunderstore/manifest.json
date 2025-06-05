@@ -1,6 +1,6 @@
 {
     "name": "Deku_Glide",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/keanine/mm-deku-glide",
     "description": "Glide after jumping from ledges",
     "dependencies": [

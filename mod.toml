@@ -8,16 +8,16 @@
 id = "mm_deku_glide"
 
 # Version of this mod.
-version = "1.0.0"
+version = "1.0.1"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
 display_name = "Deku Glide"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
-This mod gives Deku Link the option to glide after jumping from a ledge. Press A in midair and he'll float 
-forward using the same mechanic as Deku Flowers. It's a small change that goes a long way into making Deku 
-Link feel more useful, giving players more reason to stay in Deku form.
+This mod gives Deku Link the option to glide after jumping from a ledge. Press A in midair and he'll float forward using the same mechanic as Deku Flowers.
+
+It's a small change that goes a long way into making Deku Link feel more useful, giving players more reason to stay in Deku form.
 """
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short
@@ -35,8 +35,6 @@ minimum_recomp_version = "1.2.0"
 
 # Dependency mods. Each entry is the mod's ID and then an optional minimum version of the dependency mod.
 dependencies = [
-# Example dependency:
-#    "modname:1.0.0"
     "mm_recomp_do_action_helper:1.0.1"
 ]
 
