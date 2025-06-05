@@ -1,4 +1,4 @@
-# Config file for an example Majora's Mask: Recompiled mod.
+# Config file
 
 # Fields that end up in the mod's manifest.
 [manifest]
@@ -8,19 +8,21 @@
 id = "mm_deku_glide"
 
 # Version of this mod.
-version = "0.0.9"
+version = "1.0.0"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
 display_name = "Deku Glide"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
-BETA
+This mod gives Deku Link the option to glide after jumping from a ledge. Press A in midair and he'll float 
+forward using the same mechanic as Deku Flowers. It’s a small change that goes a long way into making Deku 
+Link feel more useful, giving players more reason to stay in Deku form.
 """
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short
 # to prevent it from being cut off due to the limited space.
-short_description = "BETA"
+short_description = "Glide after jumping from ledges"
 
 # Authors of this mod.
 authors = [ "Keanine" ]
@@ -58,20 +60,4 @@ func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
 data_reference_syms_files = [ "Zelda64RecompSyms/mm.us.rev1.datasyms.toml", "Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml" ]
 
 # Additional files to include in the mod.
-additional_files = [ ]
-
-[[manifest.config_options]]
-id = "unlimited_gliding"
-name = "Unlimited Gliding"
-description = "Glide without limits. Disabled is the intended experience."
-type = "Enum"
-options = [ "Disabled", "Enabled" ]
-default = "Disabled"
-
-[[manifest.config_options]]
-id = "redeploy"
-name = "Redeploy Flowers"
-description = "Glide again after you've finished gliding. This will likely allow you to break the game."
-type = "Enum"
-options = [ "Disabled", "Enabled" ]
-default = "Disabled"
+additional_files = [ "thumb.dds" ]
