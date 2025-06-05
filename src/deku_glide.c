@@ -38,6 +38,10 @@ void StartGlide(Player* this, PlayState* play) {
     Math_Vec3f_Copy(this->unk_AF0, &this->actor.world.pos);
 }
 
+RECOMP_HOOK("Player_Action_94") void Player_Action_94_Hook(Player* this, PlayState* play) {
+    glideConsumed = true;
+}
+
 RECOMP_HOOK("func_8083827C") void PlayerFallCheck_Hook(Player* this, PlayState* play) {
     if (this->actor.bgCheckFlags & BGCHECKFLAG_GROUND) {
         glideConsumed = false;
