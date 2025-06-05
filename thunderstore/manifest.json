@@ -1,0 +1,9 @@
+{
+    "name": "Deku_Glide",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/keanine/mm-deku-glide",
+    "description": "Glide after jumping from ledges",
+    "dependencies": [
+		"tomtee-Do_Action_Helper-1.0.1"
+	]
+}
