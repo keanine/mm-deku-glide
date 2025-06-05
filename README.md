@@ -5,6 +5,8 @@ Action button prompts are modified thanks to Do Action Helper by tomtee
 
 ![preview](https://github.com/user-attachments/assets/aff2cc6d-4a80-4c07-a9a2-d87544d00bdd)
 
+# Making your own mods
+
 ### Writing mods
 See [this document](https://hackmd.io/fMDiGEJ9TBSjomuZZOgzNg) for an explanation of the modding framework, including how to write function patches and perform interop between different mods.
 
